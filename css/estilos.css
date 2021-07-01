@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    background-color: darkgreen;
+}
+
+p {
+    font-size: 2em;
+}
+
+footer {
+    background-color: darkgreen;
+    color: white;
+}
+
+.btn-redes {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#resultados {
+    margin-left: 2em;
+    padding-block: 9em;
+}

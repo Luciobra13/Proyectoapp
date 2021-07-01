@@ -1,8 +1,8 @@
 // Chequeo si el browser puede usar Service Worker
 if (navigator.serviceWorker.register("../service-worker")){
-	console.log (" service ok")
+	console.log (" service ok");
 }else{
-	console.log (" service no")
+	console.log (" service no");
 }
 
 // Event Listener para Offline/ Online Status

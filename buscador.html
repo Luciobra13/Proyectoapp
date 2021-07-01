@@ -17,7 +17,7 @@
     <header>
       <nav class="navbar navbar-expand-md navbar-dark bg-micolor p-4">
           <a class="navbar-brand mx-auto" href="index.html"><h1 class="sr-only logo">Animeation</h1>
-          <img src="img/logo_anime.png" width="150" height="90" class="d-inline-block align-top" alt="logo anime">
+            <img src="img/logo_anime.png" width="150" height="90" class="d-inline-block align-top" alt="logo anime">
           </a>
            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
@@ -28,58 +28,63 @@
                  <li class="nav-item">
                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
                  </li>
-                 <li class="nav-item">
-                   <a class="nav-link" href="buscador.html">Buscar</a>
-                 </li> 
-               </ul>
+                </ul>
              </div>
      </nav>
 </header>
-    <h1 class="alert-success text-center">Variedades de Anime</h1>
-   <div class="d-flex justify-content-center"> 
-   <img class="img-fluid" src="img/anime.jpg" alt="imagen chica anime">
-  </div>
-   <p class="mt-5 text-center">En este sitio podés buscar la mas amplia variedad de anime con muchas temáticas que te pueden interesar</p>
+    <h1 class="alert-success text-center">Buscá tu Anime</h1>
+    
+    <form id="formulario" class="text-center">
+    	<input type="text" id="input" name="input">
+    	<button type="submit">Buscar</button>
+    </form>
+    
+    <div ></div>
+    
+    <div  id="resultados"></div>
+    
+    </div>
 
-   <footer> 
-    <div class="container">
-      <ul class="row text-center my-5 p-0 justify-content-center">
-          <li class="col p-0">
-              <a class="btn-floating btn-lg btn-fb btn-redes"  role="button"
-                 href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>
-          </li>
-          <li class="col p-0">
-              <a class="btn-floating btn-lg btn-tw btn-redes"  role="button"
-                 href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
-          </li>
-          <li class="col p-0">
-              <a class="btn-floating btn-lg btn-ins btn-redes"  role="button"
-                 href="https://www.instagram.com/?hl=es-la" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
-          </li>
-          <li class="col p-0">
-              <a class="btn-floating btn-lg btn-yt btn-redes"  role="button"
-                 href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
-          </li>
-      </ul>
-  </div>
-      
-          <div id="datos">
-          <ul>
-              <li><strong>Alumno:</strong> Brandi Lucio Mariano</li>
-              <li><strong>Carrera:</strong> Diseño Web</li>
-              <li><strong>Materia:</strong> Aplicaciones Web Progresivas</li>
-              <li><strong>Profesor:</strong> Gonzalo Rubino</li>
-              <li><strong>Turno:</strong> Noche</li>
-              <li><strong>Comisión:</strong> 3A</li>
+
+    <footer> 
+        <div class="container">
+          <ul class="row text-center my-5 p-0 justify-content-center">
+              <li class="col p-0">
+                  <a class="btn-floating btn-lg btn-fb btn-redes"  role="button"
+                     href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>
+              </li>
+              <li class="col p-0">
+                  <a class="btn-floating btn-lg btn-tw btn-redes"  role="button"
+                     href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+              </li>
+              <li class="col p-0">
+                  <a class="btn-floating btn-lg btn-ins btn-redes"  role="button"
+                     href="https://www.instagram.com/?hl=es-la" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+              </li>
+              <li class="col p-0">
+                  <a class="btn-floating btn-lg btn-yt btn-redes"  role="button"
+                     href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+              </li>
           </ul>
       </div>
-  
-     
-                              
-                                                                       
-  </footer>
-  
-
+          
+              <div id="datos">
+              <ul>
+                  <li><strong>Alumno:</strong> Brandi Lucio Mariano</li>
+                  <li><strong>Carrera:</strong> Diseño Web</li>
+                  <li><strong>Materia:</strong> Aplicaciones Web Progresivas</li>
+                  <li><strong>Profesor:</strong> Gonzalo Rubino</li>
+                  <li><strong>Turno:</strong> Noche</li>
+                  <li><strong>Comisión:</strong> 3A</li>
+              </ul>
+          </div>
+      
+         
+                                  
+                                                                           
+      </footer>
+      
+    
 
 
     <script src="js/register-sw.js"></script>
